@@ -1,0 +1,6 @@
+git remote add origin https://github.com/yangjiaoshan/Doc.git	
+	将本地的一个仓库和远程的Doc仓库关联起来，origin是远程库的名字，Git的默认叫法，可以自定义。命令执行成功以后没有任何返回。
+	
+git  push -u origin master
+	将本地库的内容推送到远程库中，使用git  push。本条明林的意思是把当前master分支推送到远程。命令选项 -u 表示将本地的分支master和远程分支master关联上。第一次推送的时候加上-u 以后推送可以不使用-u了。  第一次推送的时候还需要输入github上的用户名和密码。
+	在这里说一下，git有两种关联或者是同步方式，ssh和https。不同的是ssh不需要输入密码速度快，https需要输入密码速度还慢。但是ssh需要在github中建立ssh秘钥。
